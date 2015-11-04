@@ -10,7 +10,7 @@ Replaces all spaces in a string with a hyphen
 
 **Parameters**
 
-**str**: `string`, this string
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
@@ -21,7 +21,7 @@ Replaces all spaces in a string with a underscores
 
 **Parameters**
 
-**str**: `string`, this string
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
@@ -32,7 +32,7 @@ Purifies, strips non alphanumeric chars, hyphenates spaces and converts to lower
 
 **Parameters**
 
-**str**: `string`, this string
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
@@ -43,18 +43,18 @@ Purifies, strips non alphanumeric chars, replaces space with underscore and conv
 
 **Parameters**
 
-**str**: `string`, this string
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
 
 ### string-utils.alphanumeric(str)
 
-Removes all non alphanumeric chars allows whitespace
+Removes all non alphanumeric chars allows whitespace and hyphens
 
 **Parameters**
 
-**str**: `string`, this string
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
@@ -65,7 +65,7 @@ Replace all diacritics with their basic latin equivalent, unknown equivalents ar
 
 **Parameters**
 
-**str**: `string`, the string to purify
+**str**: `string`, the string to filter
 
 **Returns**: `string`
 
